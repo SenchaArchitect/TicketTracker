@@ -1,0 +1,12 @@
+{
+    "type": "libraryresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "basePath": "http://qa.sencha.com/knightly/qa/ext-4.2-20130129/"
+    },
+    "designerId": "2aa6cb0c-1618-4d82-9ce7-22e8e0675117"
+}

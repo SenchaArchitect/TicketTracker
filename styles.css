@@ -1,0 +1,62 @@
+div.ticket-wrapper
+{
+    float:left;
+    width:150px;
+    height:100px;
+    background-color:#eee;
+    margin: 20px;
+    border: 2px solid #eee
+}
+
+div.ticket-wrapper.x-item-selected
+{
+    border: 2px solid #000;
+}
+
+div.ticket-wrapper span.title
+{
+    font-size:1.2em;
+    font-weight:bold;
+    text-align:center;
+    display:block
+}
+
+div.ticket-wrapper span.importance
+{
+    display:block;
+    width:80%;
+    height:50px;
+    color:white;
+    font-weight:bold;
+    font-size:3em;
+    text-align:center;
+    margin:10px 10%;
+}
+
+div.ticket-wrapper span.importance.importance-1 {background-color:green;}
+div.ticket-wrapper span.importance.importance-2 {background-color:yellow;}
+div.ticket-wrapper span.importance.importance-3 {background-color:orange;}
+div.ticket-wrapper span.importance.importance-4 {background-color:pink;}
+div.ticket-wrapper span.importance.importance-5 {background-color:red;}
+
+div.ticket-wrapper span.description
+{
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+div.ticket-wrapper span.status
+{
+    display:block;
+    width:60%;
+    margin: 10px 20%;
+    padding: 3px;
+    text-align:center;
+    colow:white;
+    font-weight:bold;
+}
+
+div.ticket-wrapper span.status.open{baackground-color:green;}
+div.ticket-wrapper span.status.in-progress{background-color:yellow;}
+div.ticket-wrapper span.status.complete{background-color:purple;}
