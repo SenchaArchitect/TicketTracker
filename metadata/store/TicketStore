@@ -10,7 +10,7 @@
         "storeId": "MyStore",
         "designer|userClassName": "TicketStore",
         "designer|userAlias": "ticketStore",
-        "data": "[\n    {\n        title:'Improve Css',\n        status:'Open',\n        description:'improve site css',\n        importance:3\n    },\n    {\n        title:'PHP scripting',\n        status:'Open',\n        description:'Perform some PHP scripting',\n        importance:4\n    },\n    {\n        title:'PHP Bug',\n        status:'In Progress',\n        description:'remove PHP Bug',\n        importance:4\n    },\n]"
+        "data": "[\n    {\n        title:'Improve Css',\n        status:'Open',\n        description:'improve site css',\n        importance:3\n    },\n    {\n        title:'PHP scripting',\n        status:'Open',\n        description:'Perform some PHP scripting',\n        importance:4\n    },\n    {\n        title:'PHP Bug',\n        status:'In Progress',\n        description:'remove PHP Bug',\n        importance:4\n    }\n]"
     },
     "designerId": "87797620-cc28-4a7d-bc85-61a1cee8a1fc"
 }

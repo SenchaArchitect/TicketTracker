@@ -45,8 +45,7 @@ Ext.define('TicketTracker.store.TicketStore', {
                     status: 'In Progress',
                     description: 'remove PHP Bug',
                     importance: 4
-                },
-                
+                }
             ]
         }, cfg)]);
     }
