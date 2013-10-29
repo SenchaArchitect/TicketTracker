@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "title",
-                "designer|userClassName": "MyField"
+                "name": "title"
             },
             "designerId": "fdfc279b-7e44-48fc-88f4-9459cfe30457"
         },
@@ -31,8 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "status",
-                "designer|userClassName": "MyField1"
+                "name": "status"
             },
             "designerId": "617810bc-470c-48d7-9166-5cf748dc68c5"
         },
@@ -44,8 +42,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "description",
-                "designer|userClassName": "MyField2"
+                "name": "description"
             },
             "designerId": "5d502152-82e9-4306-bc43-bcacebcfc5be"
         },
@@ -57,8 +54,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "importance",
-                "designer|userClassName": "MyField3"
+                "name": "importance"
             },
             "designerId": "e44c4d49-636b-4a1d-9a75-72340d7ad9c9"
         }

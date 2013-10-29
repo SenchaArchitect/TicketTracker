@@ -6,13 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": 250,
-        "width": 400,
-        "designer|userClassName": "TicketDataView",
         "designer|userAlias": "ticketDataView",
+        "designer|userClassName": "TicketDataView",
         "emptyText": "No records!",
+        "height": 250,
         "itemSelector": "div.ticket-wrapper",
-        "store": "TicketStore"
+        "store": "TicketStore",
+        "width": 400
     },
     "designerId": "76d10648-962f-4291-b9ce-507a9fcef315",
     "cn": [
@@ -24,7 +24,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "itemTpl",
+                "designer|displayName": "itemTpl",
                 "implHandler": [
                     "<tpl for\".\">",
                     "    <div class=\"ticket-wrapper\">",
@@ -33,8 +33,7 @@
                     "        <span class=\"status {[values.status.toLowerCase().replace(\" \", \"-\")]}\">{status}</span>",
                     "    </div>",
                     "</tpl>"
-                ],
-                "designer|displayName": "itemTpl"
+                ]
             },
             "designerId": "786d5bee-8dc0-4a30-a38f-6c7619f6a5eb"
         }

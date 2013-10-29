@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": 500,
-        "width": 700,
-        "designer|userClassName": "TicketPanel",
-        "designer|userAlias": "ticketPanel",
         "designer|initialView": true,
-        "title": "Ticket Tracker"
+        "designer|userAlias": "ticketPanel",
+        "designer|userClassName": "TicketPanel",
+        "height": 500,
+        "title": "Ticket Tracker",
+        "width": 700
     },
     "designerId": "8528171f-a626-4448-98da-00cf0fe42ee5",
     "cn": [
@@ -23,8 +23,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dock": "top",
-                "designer|userClassName": "MyToolbar"
+                "dock": "top"
             },
             "designerId": "4a6ee1d3-cbc0-4e8b-91f2-68ead7d226ea",
             "cn": [
@@ -36,13 +35,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
-                        "width": 200,
-                        "designer|userClassName": "MyComboBox",
                         "fieldLabel": "Importance",
+                        "layout|flex": null,
                         "name": "status",
                         "queryMode": "local",
-                        "store": "['1', '2', '3', '4', '5']"
+                        "store": [
+                            "['1', '2', '3', '4', '5']"
+                        ],
+                        "width": 200
                     },
                     "configAlternates": {
                         "store": "array"
@@ -57,9 +57,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
                         "action": "sortByImportance",
-                        "designer|userClassName": "MyButton",
+                        "layout|flex": null,
                         "text": "Sort By Importance"
                     },
                     "designerId": "4b920772-6ab4-40d4-b00e-baa6e63d2ae5",
@@ -79,9 +78,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
                         "action": "clearFilter",
-                        "designer|userClassName": "MyButton1",
+                        "layout|flex": null,
                         "text": "Clear Filter"
                     },
                     "designerId": "b21211da-71a1-4f22-84f9-10445a0c00a9",
@@ -101,9 +99,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": null,
                         "action": "addTicket",
-                        "designer|userClassName": "MyButton2",
+                        "layout|flex": null,
                         "text": "Add Ticket"
                     },
                     "designerId": "348792f8-a0c4-4974-bc47-5a17b15e55b1",
