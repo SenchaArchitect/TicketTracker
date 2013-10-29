@@ -6,9 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "TicketController"
+        ],
         "models": [
             "Ticket"
         ],
+        "name": "TicketTracker",
         "stores": [
             "TicketStore"
         ],
@@ -17,12 +21,7 @@
             "TicketDataView",
             "TicketForm",
             "TicketFormWindow"
-        ],
-        "autoCreateViewport": true,
-        "controllers": [
-            "TicketController"
-        ],
-        "name": "TicketTracker"
+        ]
     },
     "designerId": "application"
 }

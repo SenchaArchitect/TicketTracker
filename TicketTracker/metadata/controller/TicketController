@@ -18,7 +18,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "ticketDataView",
                 "ref": "ticketDataView",
                 "selector": "ticketPanel ticketDataView"
             },
@@ -32,7 +31,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "ticketFormPanel",
                 "ref": "ticketFormPanel",
                 "selector": "ticketFormWindow ticketForm"
             },
@@ -46,7 +44,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "ticketFormWindow",
                 "ref": "ticketFormWindow",
                 "selector": "ticketFormWindow"
             },
@@ -67,7 +64,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onDataviewItemClick",
+                "designer|controlQuery": "ticketPanel ticketDataView",
+                "designer|targetType": "TicketDataView",
                 "fn": "onDataviewItemClick",
                 "implHandler": [
                     "var win = this.getTicketFormWindow();",
@@ -78,9 +76,7 @@
                     "this.getTicketFormPanel().loadRecord(record);"
                 ],
                 "name": "itemclick",
-                "scope": "me",
-                "designer|targetType": "TicketDataView",
-                "designer|controlQuery": "ticketPanel ticketDataView"
+                "scope": "me"
             },
             "designerId": "1c59a064-dfd6-46c7-926e-5e9af5690dac"
         },
@@ -92,15 +88,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onSortByImportanceButtonClick",
+                "designer|controlQuery": "ticketPanel button[action='sortByImportance']",
+                "designer|targetType": "Ext.button.Button",
                 "fn": "onSortByImportanceButtonClick",
                 "implHandler": [
                     "this.getTicketDataView().getStore().sort('importance', 'DESC');"
                 ],
                 "name": "click",
-                "scope": "me",
-                "designer|targetType": "Ext.button.Button",
-                "designer|controlQuery": "ticketPanel button[action='sortByImportance']"
+                "scope": "me"
             },
             "designerId": "b21f9c9d-924d-4bab-9df0-6ee7558c9bf6"
         },
@@ -112,16 +107,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onComboboxChange",
+                "designer|controlQuery": "ticketPanel combo[name='status']",
+                "designer|targetType": "Ext.form.field.ComboBox",
                 "fn": "onComboboxChange",
                 "implHandler": [
                     "this.getTicketDataView().getStore().clearFilter();",
                     "this.getTicketDataView().getStore().filter('importance', newValue);"
                 ],
                 "name": "change",
-                "scope": "me",
-                "designer|targetType": "Ext.form.field.ComboBox",
-                "designer|controlQuery": "ticketPanel combo[name='status']"
+                "scope": "me"
             },
             "designerId": "a4fe7f9c-fc64-403a-aa2d-523251043e5b"
         },
@@ -133,15 +127,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onClearFilterButtonClick",
+                "designer|controlQuery": "ticketPanel button[action='clearFilter']",
+                "designer|targetType": "Ext.button.Button",
                 "fn": "onClearFilterButtonClick",
                 "implHandler": [
                     "this.getTicketDataView().getStore().clearFilter();"
                 ],
                 "name": "click",
-                "scope": "me",
-                "designer|targetType": "Ext.button.Button",
-                "designer|controlQuery": "ticketPanel button[action='clearFilter']"
+                "scope": "me"
             },
             "designerId": "83b21bc6-5eb4-44bc-ae5e-ac1c31164a21"
         },
@@ -153,7 +146,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onAddButtonClick",
+                "designer|controlQuery": "ticketPanel button[action='addTicket']",
+                "designer|targetType": "Ext.button.Button",
                 "fn": "onAddButtonClick",
                 "implHandler": [
                     "var win = this.getTicketFormWindow();",
@@ -165,9 +159,7 @@
                     "win.show();"
                 ],
                 "name": "click",
-                "scope": "me",
-                "designer|targetType": "Ext.button.Button",
-                "designer|controlQuery": "ticketPanel button[action='addTicket']"
+                "scope": "me"
             },
             "designerId": "1c2487b6-8fb0-48b1-9172-c0957d29059b"
         },
@@ -179,7 +171,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onSaveButtonClick",
+                "designer|controlQuery": "ticketFormWindow button[action='saveTicket']",
+                "designer|targetType": "Ext.button.Button",
                 "fn": "onSaveButtonClick",
                 "implHandler": [
                     "var form = this.getTicketFormPanel();",
@@ -193,9 +186,7 @@
                     "this.getTicketFormWindow().close();"
                 ],
                 "name": "click",
-                "scope": "me",
-                "designer|targetType": "Ext.button.Button",
-                "designer|controlQuery": "ticketFormWindow button[action='saveTicket']"
+                "scope": "me"
             },
             "designerId": "a6ce81e8-6778-433b-b94f-601dd4d4b65d"
         },
@@ -207,7 +198,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onDataviewItemContextMenu",
+                "designer|controlQuery": "ticketPanel ticketDataView",
+                "designer|targetType": "TicketDataView",
                 "fn": "onDataviewItemContextMenu",
                 "implHandler": [
                     "e.stopEvent();",
@@ -232,9 +224,7 @@
                     "this.ctxMenu.showAt(e.getXY());"
                 ],
                 "name": "itemcontextmenu",
-                "scope": "me",
-                "designer|targetType": "TicketDataView",
-                "designer|controlQuery": "ticketPanel ticketDataView"
+                "scope": "me"
             },
             "designerId": "d50ec048-4ad5-4957-919e-9f3602e5539b"
         }
