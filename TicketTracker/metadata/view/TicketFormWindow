@@ -16,6 +16,7 @@
         "designer|userAlias": "ticketFormWindow",
         "designer|userClassName": "TicketFormWindow",
         "height": 300,
+        "layout": "fit",
         "title": "Edit Ticket",
         "width": 500
     },

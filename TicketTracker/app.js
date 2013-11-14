@@ -38,7 +38,6 @@ Ext.application({
     name: 'TicketTracker',
 
     launch: function() {
-
         Ext.create('TicketTracker.view.TicketPanel', {renderTo: Ext.getBody()});
     }
 

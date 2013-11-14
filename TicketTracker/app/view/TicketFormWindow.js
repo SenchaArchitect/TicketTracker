@@ -23,6 +23,9 @@ Ext.define('TicketTracker.view.TicketFormWindow', {
 
     height: 300,
     width: 500,
+    layout: {
+        type: 'fit'
+    },
     closeAction: 'hide',
     title: 'Edit Ticket',
 

@@ -26,7 +26,7 @@
                 "fieldLabel": "Title",
                 "layout|anchor": "100%",
                 "name": "title",
-                "width": 300
+                "width": null
             },
             "designerId": "13e45307-161d-4d11-af15-047ce9496fef"
         },
@@ -41,7 +41,7 @@
                 "fieldLabel": "Description",
                 "layout|anchor": "100%",
                 "name": "description",
-                "width": 300
+                "width": null
             },
             "designerId": "78fa230f-16fe-4ac8-912a-9fb54e852285"
         },
@@ -61,7 +61,7 @@
                 "value": [
                     "1"
                 ],
-                "width": 300
+                "width": null
             },
             "designerId": "01d89319-5bfc-4005-a7a3-8a741ec77d5f"
         },
@@ -80,7 +80,7 @@
                 "store": [
                     "['Open','In Progress','Complete']"
                 ],
-                "width": 300
+                "width": null
             },
             "configAlternates": {
                 "store": "array"

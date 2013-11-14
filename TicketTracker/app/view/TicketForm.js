@@ -30,21 +30,18 @@ Ext.define('TicketTracker.view.TicketForm', {
                 {
                     xtype: 'textfield',
                     anchor: '100%',
-                    width: 300,
                     fieldLabel: 'Title',
                     name: 'title'
                 },
                 {
                     xtype: 'textareafield',
                     anchor: '100%',
-                    width: 300,
                     fieldLabel: 'Description',
                     name: 'description'
                 },
                 {
                     xtype: 'numberfield',
                     anchor: '100%',
-                    width: 300,
                     fieldLabel: 'Importance',
                     name: 'importance',
                     value: 1,
@@ -54,7 +51,6 @@ Ext.define('TicketTracker.view.TicketForm', {
                 {
                     xtype: 'combobox',
                     anchor: '100%',
-                    width: 300,
                     fieldLabel: 'Status',
                     name: 'status',
                     queryMode: 'local',
